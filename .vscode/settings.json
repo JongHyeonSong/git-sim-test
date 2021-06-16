@@ -1,0 +1,15 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  // "compile-hero.notification-toggle": true,
+  "compile-hero.javascript-output-directory": "",
+  // "compile-hero.javascript-output-toggle": false,
+  // "compile-hero.sass-output-directory": "./out",
+  // "compile-hero.sass-output-toggle": true,
+  // "compile-hero.ignore": ["src/test.js", "*/test.scss", "**/spec/*", "**/src/**/*"],
+  // "compile-hero.watch": ["sass/test.sass", "**/less/**/*"]
+
+  // "compile-hero.watch": ["src/js/*", "src/js_copy/te3.js"]
+
+
+  // "compile-hero.generate-minified-javascript":true,
+}
