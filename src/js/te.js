@@ -1,5 +1,7 @@
-var a = 3;
-var b = 3324;
-var a = 434353;
-
-
+Object.keys(extra_list).forEach(function(val){
+  if(this[val]){
+      extra_list[val] = this[val].value;
+  } else{
+      extra_list[val] = "";
+  }
+})
