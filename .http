@@ -1,0 +1,6 @@
+POST https://192.168.219.125/user/myUserInfo.api HTTP/1.1
+Content-Type: application/json
+
+{
+  "HI":1
+}

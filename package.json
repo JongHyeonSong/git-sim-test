@@ -1,0 +1,27 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hi.dev.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JongHyeonSong/git-sim-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JongHyeonSong/git-sim-test/issues"
+  },
+  "homepage": "https://github.com/JongHyeonSong/git-sim-test#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "request": "^2.88.2"
+  }
+}

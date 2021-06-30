@@ -1,40 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <form name="fwrite" id="fwrite" action="#"  method="post" enctype="multipart/form-data" autocomplete="off">
-    <input type="hidden" name="uid" value="">
-    <input type="hidden" name="w" value="">
-    <input type="hidden" name="bo_table" value="">
-    <input type="hidden" name="wr_id" value="">
-    <input type="hidden" name="sca" value="">
-    <input type="hidden" name="sfl" value="">
-    <input type="hidden" name="stx" value="">
-    <input type="hidden" name="spt" value="">
-    <input type="hidden" name="sst" value="">
-    <input type="hidden" name="sod" value="">
-    <input type="hidden" name="page" value="">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <div style="text-align:right;">
-        <button type="button" class="btn_frmline" onclick="autosave()">임시저장</button>
-        <button type="button" class="btn_frmline" onclick="autosave1()">임시저장</button>
-        <button type="button" id="btn_autosave" class="btn_frmline">임시 저장된 글 (<span id="autosave_count"><?php echo $autosave_count; ?></span>)</button>
-    </div>
+</head>
+<body>
+  <a href="#">sef</a>
 
-    <script src='./hi.js'></script>
-    <!-- <script src='./hi.dev.js'></script> -->
-    <script>
-      function autosave1(){
-        console.log(this);
-      }      
-    </script>
-  </body>
+  <script>
+   
+    // $("a").on('click',(e)=>{
+    //   $("a").remove();
+    // });
+    $(document).bind('click ',function(e){
+      debugger
+        if($(window).width() > 1200){
+          // e.preventDefault();
+          $("a").remove();
+        }
+    });
+  </script>
+</body>
 </html>
-
-
